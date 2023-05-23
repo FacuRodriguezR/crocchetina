@@ -11,30 +11,93 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <div class="nav container">
-            <div class="logo">
-                <!-- <img src="" alt=""> -->
-                <h2>Crochettina</h2>
-            </div>
-            <nav >
-                <ul class="navigation">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="#">Patrones</a></li>
-                   <li><a href="product.html">Productos</a></li>
-                   <li><a href="contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header class="topheader">
+        
 
-        </div>
-    </header>
+        <nav class="topnav">
+          <a href="#perfil" class="logo">
+            <img height="70" width="70" src="./img/crocchetina.jpeg" alt="name" />
+            <div class="nameNav">Crocchettina</div>
+          </a>
+          <button class="open-menu" aria-label="Abrir menú">
+            <img src="./img/icon/menu-icon.svg" alt="abrir-menu" height="30" width="30" />
+          </button>
+          <ul class="menu">
+            <button class="close-menu" aria-label="Cerrar Menú">
+              <img src="./img/icon/close-icon.svg" alt="cerrar-menu" height="30" width="30" />
+            </button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Patrones</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+   
+  </header>
 
     <div class="title container">
         <h1>Contacto</h1>
     </div>
 
     <!-- Formulario -->
-
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contacto">
+    
+         
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+              <div class="contact-details-group">
+                <p class="contact-label">Dirección</p>
+                <p class="contact-text">Mendoza - Argentina</p>
+              </div>
+              <div class="contact-details-group">
+                <p class="contact-label">Email:</p>
+                <p class="contact-text">marquezcinthia98@gmail.com</p>
+              </div>
+    
+            </div>
+            <form  class="contact-form" name="contact" netlify>
+              <div class="contact-form-group">
+                <label for="name">Nombre</label>
+                <input required type="text" name="name" id="name">
+              </div>
+              <div class="contact-form-group">
+                <label for="telefono">Teléfono</label>
+                <input required type="text" name="telefono" id="telefono">
+              </div>
+              <div class="contact-form-group">
+                <label for="email">E-mail</label>
+                <input required type="text" name="email" id="email">
+              </div>
+              <div class="contact-form-group">
+                <label for="message">Mensaje</label>
+               <textarea required name="message" id="message" cols="30" rows="6"></textarea>
+              </div>
+              <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://github.com/FacuRodriguezR" class="social-link" target="_blank"> 
+                    <img src="./img/icon/gmail-svgrepo-com.svg" alt="">
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link" target="_blank"> 
+                    <img src="./img/icon/whatsapp-svgrepo-com (1).svg" alt="">
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link" target="_blank"> 
+                    <img src="./img/icon/instagram-color-svgrepo-com.svg" alt="coso">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+         
+        </section>
+      </div>
+    
 
 
     <footer class="footer ">
