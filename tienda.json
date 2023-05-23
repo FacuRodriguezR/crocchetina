@@ -1,0 +1,74 @@
+[
+    {
+        "image": "./img/negrita.jpeg",
+        "title": "Negrita",
+        "price": "$4500",
+        "size": "30cm"
+    },
+    {
+        "image": "./img/pinkpanther.jpeg",
+        "title": "Pantera Rosa",
+        "price": "$4500",
+        "size": "30cm"
+    },
+    {
+        "image": "./img/ositos.jpeg",
+        "title": "Sonajero Osito",
+        "price": "$4500",
+        "size": "30cm"
+    },
+    {
+        "image": "./img/ositocap.jpeg",
+        "title": "Six Osito",
+        "price": "$4500",
+        "size": "30cm"
+    },
+    {
+        "image": "./img/osito.jpeg",
+        "title": "Oso",
+        "price": "$4500",
+        "size": "30cm"
+    },   
+    {
+        "image": "./img/nightmares.jpeg",
+        "title": "Six Nightmares",
+        "price": "$4500",
+        "size": "30cm"
+    },   
+    {
+        "image": "./img/mikecrack.jpeg",
+        "title": "Mike Crack",
+        "price": "$4500",
+        "size": "30cm"
+    }   ,
+    {
+        "image": "./img/messi.jpeg",
+        "title": "Messi",
+        "price": "$4500",
+        "size": "30cm"
+    },  
+    {
+        "image": "./img/kit.jpeg",
+        "title": "Kit Enfermera",
+        "price": "Sin Stock",
+        "size": "30cm"
+    },  
+    {
+        "image": "./img/kimi.jpeg",
+        "title": "Kimi Rugrats",
+        "price": "$4500",
+        "size": "30cm"
+    },  
+    {
+        "image": "./img/jirafa.jpeg",
+        "title": "Sonajero Jirafa",
+        "price": "$4500",
+        "size": "30cm"
+    },  
+    {
+        "image": "./img/elefante.jpeg",
+        "title": "Sonajero Elefante",
+        "price": "$4500",
+        "size": "30cm"
+    }
+]

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{  
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 999;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+.navigation {
+    display: inline-flex;
+    gap: 1rem;
+    }
+
+.navigation li a {
+    color: #420000;
+    font-weight: 600;
+    font-size: 1.08rem;
+}
+
+.navigation li a:hover{
+    color: #ffffff;
+}
+/* cards tienda */
+.card{
+    position: relative;
+    transition: all ease 0.3s;
+}
+.card:hover{
+    border: 1px solid black;
+    padding: 0.5rem;
+    
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 2.8rem;
+    padding-bottom: 1rem ;
+}
+
+.detail-box{
+    padding: 10px;
+    text-align: center;
+}
+
+.detail-box h2 {
+    font-size: 1.25rem;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.add-cart {
+    font-size: 20px;
+    background: pink;
+    padding: 0.5rem;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.add-cart:hover{
+    color: #ffffff;
+    background: #000;
+}
+
+.title{ 
+    margin-top: 8rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.size {
+    font-size: 0.9rem !important;
+    color: grey;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: pink;
+    text-align: center;
+    margin-top: auto;
+
+}
+
+/* contacto */
+ 
+  
+
+  
